@@ -16,10 +16,10 @@ body {
  }
  
  .calculator {
-   background-color: #ffffff;
-   border: 2px solid #dddddd;
-   border-radius: 5px;
-   padding: 20px;
+   background-color: silver;
+   border: 10px solid hsl(0, 6%, 3%);
+   border-radius: 10px;
+   padding: 10px;
  }
  
  #display {
@@ -41,11 +41,15 @@ body {
    border: none;
    border-radius: 5px;
    cursor: pointer;
-   background-color: #fcf8f8;
+   background-color: #040303;
+   color: white;
  }
+ .calculator11 {
+  padding: 10px;      /* Define styles for the calculator */
+      }
  
  button:hover {
-   background-color: #ebe2e2;
+   background-color: #060404;
  }
     .calculator-grid {
      display: grid;
