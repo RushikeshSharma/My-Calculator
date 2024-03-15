@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator App</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <div class="calculator">
     <input type="text" id="display" value="0">
     <div class="buttons">
-      <button onclick="appendNumber()"></button>
-      <button onclick="appendNumber()"></button>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;<img src="scc.png"></div>
       <button onclick="reset()">Reset</button>
       <button onclick="deleteLast()">Del</button>
+      <button onclick="calculatePercentage()">%</button>
       <button onclick="appendNumber(7)">7</button>
       <button onclick="appendNumber(8)">8</button>
       <button onclick="appendNumber(9)">9</button>
@@ -33,6 +34,8 @@
       
     </div>
   </div>
+ 
   <script src="calcu.js"></script>
 </body>
 </html>
+
